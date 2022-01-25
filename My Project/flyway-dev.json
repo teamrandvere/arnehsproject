@@ -1,0 +1,14 @@
+{
+  "version": "2.0",
+  "name": "My Project",
+  "id": "761770b5-30d0-4351-a0b3-2a810d035922",
+  "databaseType": "SqlServer",
+  "development": {
+    "scriptsFolder": "./schema-model"
+  },
+  "deployment": {
+    "flywayConfFiles": [
+      "./flyway.conf"
+    ]
+  }
+}
